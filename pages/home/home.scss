@@ -1,0 +1,60 @@
+page-home {
+  .background{
+    background-image: url('../../assets/imgs/bg.jpg');
+    background-position: center;
+  }
+
+   .scroll-content{
+     align-content:center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+   }
+
+   ion-card-header{
+     background-color: #30d05f;
+     box-shadow: none;
+
+   }
+
+   ion-card,.card,a {
+     background: rgba(0, 0, 0, 0.5);
+     box-shadow: none;
+     border-radius: 5px;
+     color: white;
+  }
+
+  .Hora{
+    background-color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    color: black;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .item{
+    margin-bottom: 10px;
+    border: medium none;
+  }
+
+  ion-col.times {
+    margin-bottom: 10px;
+    align-content: center;
+    text-align: center;
+
+  }
+
+
+  ion-col.odds{
+    background-color: #2ec95c;
+    margin-bottom: 10px;
+    align-content: center;
+    min-height: 10px;
+    border-radius: 5px;
+
+  }
+
+}
