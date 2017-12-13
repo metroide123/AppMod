@@ -2,6 +2,7 @@ page-home {
   .background{
     background-image: url('../../assets/imgs/bg.jpg');
     background-position: center;
+    position:absolute;
   }
 
    .scroll-content{
@@ -26,7 +27,35 @@ page-home {
   }
 
   .Hora{
-    background-color: white;
+    background-color: yellow;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .betscasas{
+    //background: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+  .BA{
+    background-color: darkorange;
+  }
+
+  .BB{
+    background-color: #30d05f;
+  }
+
+  .BC{
+    background-color: #007aff;
+  }
+
+  .Data{
+    background-color: gold;
     box-shadow: none;
     border-radius: 10px;
     color: black;
